@@ -1,8 +1,7 @@
-streamlit
-transformers
-torch
-accelerate
-sentencepiece
-PyPDF2
-pytube
-youtube-transcript-api
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+streamlit==1.39.0
+transformers==4.44.2
+torch==2.4.1+cpu
+pypdf==5.1.0
+youtube-transcript-api==1.0.3
